@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatanaHTTPListenerTest", "KatanaHTTPListenerTest\KatanaHTTPListenerTest.csproj", "{8CAE8013-19B4-4E04-9E76-C0FFE31E74E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyLib", "NancyLib\NancyLib.csproj", "{290A0711-3A57-4A5D-B5FE-1A7B63868F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy", "..\Nancy\src\Nancy\Nancy.csproj", "{34576216-0DCA-4B0F-A0DC-9075E75A676F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nowinhost", "helioshost\nowinhost.csproj", "{48519A6A-A30D-4D8E-914C-9AFF89A42933}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		MonoDebug|Any CPU = MonoDebug|Any CPU
+		MonoRelease|Any CPU = MonoRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{290A0711-3A57-4A5D-B5FE-1A7B63868F86}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{290A0711-3A57-4A5D-B5FE-1A7B63868F86}.Debug|x86.Build.0 = Debug|Any CPU
+		{290A0711-3A57-4A5D-B5FE-1A7B63868F86}.MonoDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290A0711-3A57-4A5D-B5FE-1A7B63868F86}.MonoDebug|Any CPU.Build.0 = Debug|Any CPU
+		{290A0711-3A57-4A5D-B5FE-1A7B63868F86}.MonoRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{290A0711-3A57-4A5D-B5FE-1A7B63868F86}.MonoRelease|Any CPU.Build.0 = Debug|Any CPU
+		{290A0711-3A57-4A5D-B5FE-1A7B63868F86}.Release|x86.ActiveCfg = Release|Any CPU
+		{290A0711-3A57-4A5D-B5FE-1A7B63868F86}.Release|x86.Build.0 = Release|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.Debug|x86.Build.0 = Debug|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.MonoDebug|Any CPU.ActiveCfg = MonoDebug|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.MonoDebug|Any CPU.Build.0 = MonoDebug|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.MonoRelease|Any CPU.ActiveCfg = MonoRelease|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.MonoRelease|Any CPU.Build.0 = MonoRelease|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.Release|x86.ActiveCfg = Release|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.Release|x86.Build.0 = Release|Any CPU
+		{48519A6A-A30D-4D8E-914C-9AFF89A42933}.Debug|x86.ActiveCfg = Debug|x86
+		{48519A6A-A30D-4D8E-914C-9AFF89A42933}.Debug|x86.Build.0 = Debug|x86
+		{48519A6A-A30D-4D8E-914C-9AFF89A42933}.MonoDebug|Any CPU.ActiveCfg = Debug|x86
+		{48519A6A-A30D-4D8E-914C-9AFF89A42933}.MonoDebug|Any CPU.Build.0 = Debug|x86
+		{48519A6A-A30D-4D8E-914C-9AFF89A42933}.MonoRelease|Any CPU.ActiveCfg = Debug|x86
+		{48519A6A-A30D-4D8E-914C-9AFF89A42933}.MonoRelease|Any CPU.Build.0 = Debug|x86
+		{48519A6A-A30D-4D8E-914C-9AFF89A42933}.Release|x86.ActiveCfg = Release|x86
+		{48519A6A-A30D-4D8E-914C-9AFF89A42933}.Release|x86.Build.0 = Release|x86
+		{8CAE8013-19B4-4E04-9E76-C0FFE31E74E3}.Debug|x86.ActiveCfg = Debug|x86
+		{8CAE8013-19B4-4E04-9E76-C0FFE31E74E3}.Debug|x86.Build.0 = Debug|x86
+		{8CAE8013-19B4-4E04-9E76-C0FFE31E74E3}.MonoDebug|Any CPU.ActiveCfg = Debug|x86
+		{8CAE8013-19B4-4E04-9E76-C0FFE31E74E3}.MonoDebug|Any CPU.Build.0 = Debug|x86
+		{8CAE8013-19B4-4E04-9E76-C0FFE31E74E3}.MonoRelease|Any CPU.ActiveCfg = Debug|x86
+		{8CAE8013-19B4-4E04-9E76-C0FFE31E74E3}.MonoRelease|Any CPU.Build.0 = Debug|x86
+		{8CAE8013-19B4-4E04-9E76-C0FFE31E74E3}.Release|x86.ActiveCfg = Release|x86
+		{8CAE8013-19B4-4E04-9E76-C0FFE31E74E3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = KatanaHTTPListenerTest\KatanaHTTPListenerTest.csproj
+	EndGlobalSection
+EndGlobal
